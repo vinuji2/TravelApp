@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@drawable/trip2"
     tools:context=".AddNoteActivity">
 
     <TextView
@@ -13,8 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
-        android:text="Add Note."
-        android:textColor="@color/orange"
+        android:text="Add Trip."
+        android:textColor="@color/white"
         android:textSize="24sp" />
 
     <ImageView
@@ -30,7 +31,7 @@
         android:id="@+id/titleEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Enter the title"
+        android:hint="Enter the destination"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/addNoteHeading"
