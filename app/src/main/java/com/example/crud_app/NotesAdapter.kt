@@ -46,7 +46,7 @@ class NotesAdapter (private var notes:List<Note>,context: Context): RecyclerView
         holder.deleteButton.setOnClickListener {
             db.deleteNote(note.id)
             refreshData(db.getAllNotes())
-            Toast.makeText(holder.itemView.context,"Note Deleted",Toast.LENGTH_SHORT).show()
+            Toast.makeText(holder.itemView.context,"Trip Deleted",Toast.LENGTH_SHORT).show()
         }
     }
     fun refreshData(newNotes:List<Note>){
